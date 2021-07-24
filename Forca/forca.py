@@ -1,5 +1,7 @@
 import random
 
+# jogo feito com curso feito na Alura
+
 def jogar():
     mensagem_de_abertura()
     palavra_secreta = carrega_palavra_secreta()
@@ -150,15 +152,3 @@ def chute_correto(chute, letras_acertadas, palavra_secreta):
 
 if (__name__ == "__main__"):
     jogar()
-
-    # Por exemplo, o código abaixo cria
-    # uma cópia de uma imagem:
-    #
-    # # arquivo copia.py
-    # logo = open('python-logo.png', 'rb')
-    # data = logo.read()
-    # logo.close()
-    #
-    # logo2 = open('python-logo2.png', 'wb')
-    # logo2.write(data)
-    # logo2.close()
